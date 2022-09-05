@@ -2,7 +2,9 @@ node_modules/
 .cache/
 
 # production
-public
+public/~partytown
+public/page-data
+public/static
 
 .vscode/
 src/gatsby-types.d.ts
