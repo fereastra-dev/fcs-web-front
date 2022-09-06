@@ -16,7 +16,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.10.0",
+    "@stripe/stripe-js": "^1.35.0",
     "autoprefixer": "^10.4.8",
+    "axios": "^0.27.2",
     "gatsby": "^4.22.0",
     "gatsby-plugin-manifest": "^4.22.0",
     "gatsby-plugin-netlify-cms": "^6.22.0",
