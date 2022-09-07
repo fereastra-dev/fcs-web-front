@@ -71,9 +71,14 @@ export default function PaymentForm() {
 
   return (
     <>
+    
       {!success ? (
         <form className="w-full laptop:w-1/3 p-2 laptop:pt-2 flex flex-col" onSubmit={handleSubmit}>
           <fieldset className="w-full">
+            <div className="flex flex-row gap-4 mb-5 self-center">
+            <input type="number" min={3} className="text-primary-dark w-full mb-5 p-5 rounded-xl text-xl text-right" />
+            <p className="text-primary-light text-6xl">RON</p>
+            </div>
             <div className="w-full">
               <CardElement id="card-element" className="w-full" options={CARD_OPTIONS}/>
             </div>
@@ -82,7 +87,7 @@ export default function PaymentForm() {
         </form>
       ) : (
         <div>
-           <h2>You just bought a sweet spatula congrats this is the best decision of you're life</h2>
+           <h2>Mulțumim pentru contribuție!</h2>
        </div> 
       )}
     </>

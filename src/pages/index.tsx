@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <div className="mt-10">
-        <div className="home-div flex-col rounded-tl-3xl bg-primary-light text-primary-dark">
+        <div className="home-div flex-col rounded-tl-3xl bg-primary-dark text-primary-light">
           <h1 className="font-cond-black text-left laptop:text-center">
             Fereastra Către ȘtIintă e aici!
           </h1>
@@ -26,7 +26,7 @@ const Home = () => {
             </p>
           </div>
           <button
-            className="btn btn-primary btn-outline gap-2"
+            className="btn text-primary-light bg-transparent border-primary-light gap-2 hover:bg-primary-light/90 hover:text-primary-dark hover:border-transparent"
             onClick={() => {
               navigate("/schedule");
             }}
@@ -38,8 +38,8 @@ const Home = () => {
       </div>
 
 
-      <div className="bg-primary-light">
-        <div className="home-div flex-col laptop:flex-row rounded-tr-3xl bg-primary-dark text-primary-light">
+      <div className="bg-primary-dark">
+        <div className="home-div flex-col laptop:flex-row rounded-tr-4xl bg-secondary-1 text-primary-light">
           <h1 className="font-cond-black text-left laptop:text-center">
             Întâlnește Speakerii!
           </h1>
@@ -57,7 +57,7 @@ const Home = () => {
               Lorem Ipsum.
             </p>
             <button
-              className="btn btn-primary gap-2"
+              className="btn text-primary-light bg-transparent border-primary-light gap-2 hover:bg-primary-light/90 hover:text-secondary-1 hover:border-transparent"
               onClick={() => {
                 navigate("/speakers");
               }}
@@ -70,8 +70,8 @@ const Home = () => {
       </div>
 
 
-      <div className="mt-10">
-        <div className="home-div flex-col rounded-tl-3xl bg-secondary-1 text-primary-light">
+      <div className=" bg-secondary-1">
+        <div className="home-div flex-col rounded-tl-4xl bg-secondary-2 text-primary-light">
           <h1 className="font-cond-black text-left laptop:text-center">
             Cunoaște Echipa!
           </h1>
@@ -90,7 +90,7 @@ const Home = () => {
             </p>
           </div>
           <button
-            className="btn text-primary-light bg-secondary-1 border-primary-light gap-2 hover:bg-primary-dark hover:border-primary-dark"
+            className="btn text-primary-light bg-transparent border-primary-light gap-2 hover:bg-primary-light/90  hover:text-secondary-2 hover:border-transparent"
             onClick={() => {
               navigate("/about");
             }}
@@ -102,8 +102,8 @@ const Home = () => {
       </div>
 
 
-      <div className="bg-secondary-1">
-        <div className="home-div flex-col laptop:flex-row rounded-tr-3xl bg-secondary-2 text-primary-light">
+      <div className="bg-secondary-2">
+        <div className="home-div flex-col laptop:flex-row rounded-tr-4xl bg-secondary-3 text-primary-light">
         <h1 className="font-cond-black text-left laptop:text-center">
             Cu leul trece greul
           </h1>
@@ -121,7 +121,7 @@ const Home = () => {
               Lorem Ipsum.
             </p>
             <button
-              className="btn text-primary-light bg-secondary-3 border-none hover:bg-secondary-3/50 gap-2"
+              className="btn text-primary-light bg-transparent border-primary-light gap-2 hover:bg-primary-light/90 hover:text-secondary-3 hover:border-transparent"
               onClick={() => {
                 navigate("/donate");
               }}

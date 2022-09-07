@@ -12,7 +12,11 @@ const iconfig = {
 
 export default function Layout(props: { children: JSX.Element }) {
   return (
-    <IconContext.Provider value={iconfig}>
+    <IconContext.Provider
+      value={{
+        className: "fill-slate-300 group-hover:fill-white",
+      }}
+    >
       <Meta />
       <div className="drawer bg-primary-dark text-primary-light">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
@@ -31,7 +35,11 @@ export default function Layout(props: { children: JSX.Element }) {
         >
           <label htmlFor="my-drawer" className="drawer-overlay"></label>
           <ul className="menu gap-2 p-4 overflow-y-auto w-full bg-secondary-1">
-            <li><label className="btn btn-ghost w-full my-4 p-6 h-auto"><BsArrowLeftCircle/></label></li>
+            <li>
+              <label className="btn btn-ghost w-full my-4 p-6 h-auto">
+                <BsArrowLeftCircle />
+              </label>
+            </li>
             <SidebarContent />
           </ul>
         </div>

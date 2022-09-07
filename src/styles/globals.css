@@ -16,15 +16,15 @@
   
   .navlink {
     @apply transition ease-in-out delay-75 duration-300
-    py-2 border-b-2 border-transparent text-primary-light/70
+    py-2 border-b-2 border-transparent text-primary-dark/70
   }
 
   .active-navlink {
-    @apply border-primary-light text-primary-light
+    @apply border-primary-dark text-primary-dark
   }
 
   .home-div {
-    @apply w-full flex justify-center p-5 pt-10 gap-5 laptop:gap-10 laptop:p-10
+    @apply w-full flex justify-center p-5 mt-10 pt-10 gap-5 laptop:gap-10 laptop:p-10
   }
 
   .admin-editor-btn{
@@ -42,6 +42,14 @@
     @apply bg-secondary-1 py-3 px-6 rounded-lg shadow-md
     transition-all ease-in-out duration-100
     hover:shadow-xl hover:bg-secondary-2
+  }
+
+  .rounded-tr-4xl {
+    border-top-right-radius: 3.0rem;
+  }
+
+  .rounded-tl-4xl {
+    border-top-left-radius: 3.0rem;
   }
 
   #card-element {
