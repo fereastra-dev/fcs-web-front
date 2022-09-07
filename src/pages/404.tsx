@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, HeadFC } from "gatsby"
+import { Link, HeadFC, navigate } from "gatsby"
 
 const pageStyles = {
   color: "#232129",
@@ -24,26 +24,19 @@ const codeStyles = {
 }
 
 const NotFoundPage = () => {
+
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
+    <main className="h-screen" style={pageStyles}>
+      <h1 className="font-cond-black text-primary-light" style={headingStyles}>Fereastra nu e pe aici...</h1>
+      <p className=" text-primary-light" style={paragraphStyles}>
+        Ne pare rău 😔, nu există pagina pe care o căutați.
         <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
+        
+      </p>  
     </main>
   )
 }
 
 export default NotFoundPage
 
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head: HeadFC = () => <title>Page Not found</title>

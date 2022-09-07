@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfcs_web_front=self.webpackChunkfcs_web_front||[]).push([[154],{7189:function(e,t,n){n.r(t);var c=n(7294);t.default=function(){return c.createElement(c.Fragment,null,c.createElement("div",{className:"home-div"},c.createElement("h1",{className:"text-4xl font-cond-black"},"Despre Noi")))}}}]);
+//# sourceMappingURL=component---src-pages-about-index-tsx-e91d7989d0ddba88cb69.js.map

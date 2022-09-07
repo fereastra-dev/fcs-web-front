@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfcs_web_front=self.webpackChunkfcs_web_front||[]).push([[567],{6815:function(e,t,n){n.r(t);var a=n(7294);t.default=function(){return a.createElement(a.Fragment,null,a.createElement("div",{className:"home-div"},a.createElement("h1",{className:"text-4xl font-cond-black"},"Invitații noștrii")))}}}]);
+//# sourceMappingURL=component---src-pages-speakers-index-tsx-de7ca4dde8398a33d30e.js.map

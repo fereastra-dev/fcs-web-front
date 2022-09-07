@@ -123,7 +123,7 @@ const Home = () => {
             <button
               className="btn text-primary-light bg-secondary-3 border-none hover:bg-secondary-3/50 gap-2"
               onClick={() => {
-                navigate("/speakers");
+                navigate("/donate");
               }}
             >
               Donează
